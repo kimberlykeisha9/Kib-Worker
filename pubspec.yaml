@@ -1,0 +1,61 @@
+name: kibz
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  country_code_picker: ^2.0.1
+  firebase_core: ^1.0.3
+  firebase_auth: ^1.1.0
+  cloud_firestore: ^2.2.0
+  firebase_storage: ^8.0.3
+  image_picker: ^0.7.4
+  native_state: ^1.1.1
+  firebase_dynamic_links: ^2.0.4
+  cupertino_icons: ^1.0.0
+  flutterwave: ^0.0.3-dev.2
+  cloud_functions: ^1.0.3
+  shared_preferences: ^2.0.5
+  firebase_messaging: ^10.0.0
+  location: ^4.1.1
+  overlay_support: ^1.0.0
+  provider: ^5.0.0
+  connectivity: ^3.0.3
+  animations: ^2.0.0
+  animator: ^3.0.0
+  animate_do: ^2.0.0
+  sqflite: ^2.0.0+3
+  awesome_notifications: ^0.0.5+8
+  geoflutterfire: ^3.0.0-nullsafety.2
+  flutter_local_notifications: ^6.0.0
+  flutter_launcher_icons: ^0.9.0
+  flutter_native_splash: ^1.1.8+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: "^0.9.0"
+
+flutter_icons:
+  image_path: "assets/images/greenbg.png"
+  android: true
+  ios: true
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Quicksand
+      fonts:
+      - asset: assets/fonts/quicksand.ttf
